@@ -71,12 +71,3 @@ const BarChart = () => {
 };
 
 export default BarChart;
-
-function series<T>(
-  labels: any,
-  arg1: { categories: never[] },
-  series: any,
-  arg3: { name: string; data: never[] }[]
-): [any, any] {
-  throw new Error("Function not implemented.");
-}
